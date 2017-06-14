@@ -1,0 +1,25 @@
+ 
+h1 {font-family: helvetica;
+	font-size: 15px;
+
+.top header{font-family: helvetica-light; font-size: 25px; float-right:200px;}	
+
+p	{font-family: helvetica-light; 
+	font-size: 15px;}
+
+li  {font-family: helvetica-light; 
+	font-size: 17px;}
+
+.background {font-weight:none;}
+
+.training {font-weight: none;}
+
+.skills {font-weight: none;}
+
+.stories {font-weight: none;}
+
+.header {font-weight: none;}
+
+.maps {float: left; padding-right: 25px;}
+
+ /* unvisited link */ a:link { color: black; } /* visited link */ a:visited { color: gray; }
