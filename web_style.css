@@ -1,22 +1,28 @@
  
 h1 {font-family: helvetica;
-	font-size: 50px; 
-	margin: 0px 10px -5px 0px;}
+	 font-size: 51px; 
+	 margin: 0px 10px -5px 0px;}
 
 .top-header{font-family: helvetica-light; 
 			font-size: 15px; 
 			float-right:200px; 
 			font-weight: none;}
-.container {float:right; padding-right:750px; 
-			position:}
 
-.bio {}			
+.container {float:right; 
+            padding-right:785px; 
+			       }
 
-p	{font-family: helvetica-light; 
-	font-size: 15px;}
+.bio {font-family: helvetica-light; 
+          font-size: 17px;
+          margin: 10px 735px 0px 5px;
+          text-orientation:
+        }			
+
+p {font-family: helvetica-light; 
+  font-size: 15px;}
 
 li  {font-family: helvetica-light; 
-	font-size: 17px;}
+	font-size: 15px;}
 
 .background {font-weight:bold;}
 
@@ -31,3 +37,42 @@ li  {font-family: helvetica-light;
 .maps {float: left; padding-right: 20px;}
 
  /* unvisited link */ a:link { color: black; } /* visited link */ a:visited { color: gray; }
+ /* mouse over link */
+
+a:hover {color: lightblue;}/* selected link */a:active {color: darkgray;}
+
+/*LENA'S CODE STARTS HERE*/
+a.icons {
+    display: inline-block;
+    width: 20px;
+    text-decoration: none;
+    margin:0px 4px;
+    position: relative;
+    top: 5px;
+  }
+
+  a.mailicon {
+    top: 0px;
+    width:10px;
+  }
+
+  a.twitter-icon {
+    width: 10px;
+    top: 2px;
+  }
+
+  a.githubicon icon {
+    width: 10px;
+    margin:0px 3px 0px 1px;
+  }
+
+  svg {
+    fill:#black;
+    size:25px;
+    width: 20px;
+    padding:0px 5px 2px 2px;
+  }
+
+  a:hover svg {
+    fill:lightblue;
+  }	/*LENA'S CODE ENDS HERE*/
