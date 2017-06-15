@@ -5,32 +5,37 @@ h1 {font-family: helvetica;
 
 .top-header{font-family: helvetica-light; 
 			font-size: 15px; 
-			float-right:200px; 
 			font-weight: none;}
 
-.container {float:right; 
-            padding-right:785px; 
+.container {
+            max-width:700px;
+            width:100%;
+
 			       }
+. section-header
 
 .bio {font-family: helvetica-light; 
-          font-size: 17px;
+          font-size: 16px;
           margin: 10px 735px 0px 5px;
           text-orientation:
+          color: black;
         }			
 
 p {font-family: helvetica-light; 
   font-size: 15px;}
 
 li  {font-family: helvetica-light; 
-	font-size: 15px;}
+	   font-size: 15px;}
 
 .background {font-weight:bold;}
 
 .training {font-weight: bold; font-size: 15px;}
 
-.skills {font-weight: bold;}
+.skills {font-weight: bold;
+        font-size: 14px;}
 
-.stories {font-weight: bold;}
+.stories {font-weight: bold;
+          font-size: 14px;}
 
 .header {font-weight: bold;}
 
@@ -76,3 +81,11 @@ a.icons {
   a:hover svg {
     fill:lightblue;
   }	/*LENA'S CODE ENDS HERE*/
+
+/*NADJA'S CODE*/
+  last-updated {
+    font-size: 11px;
+    color: #ccc;
+    font-family: helvetica, Georgia, serif;
+    text-transform: uppercase;
+    margin-bottom: 25px;
