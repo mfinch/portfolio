@@ -1,0 +1,14 @@
+.container {position:relative;
+			top:0px;left:0px;
+}
+
+.before: {position:absolute;
+		top:0px;left:0px;
+		z-index:100;
+}	
+
+.after {position:absolute;
+		top:0px;left:0px;
+		z-index:200;
+		  
+	}
