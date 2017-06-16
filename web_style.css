@@ -39,12 +39,12 @@ li  {font-family: helvetica-light;
 
 .header {font-weight: bold;}
 
-.maps {float: left; padding-right: 20px;}
+.maps {float: left; padding:right; margin: 10px 10px 10px 10px}
 
  /* unvisited link */ a:link { color: black; } /* visited link */ a:visited { color: gray; }
  /* mouse over link */
 
-a:hover {color: lightblue;}/* selected link */a:active {color: darkgray;}
+a:hover {color: steelblue;}/* selected link */a:active {color: darkgray;}
 
 /*LENA'S CODE STARTS HERE*/
 a.icons {
@@ -79,13 +79,65 @@ a.icons {
   }
 
   a:hover svg {
-    fill:lightblue;
+    fill:steelblue;
   }	/*LENA'S CODE ENDS HERE*/
 
 /*NADJA'S CODE*/
-  last-updated {
+  .last-updated {
     font-size: 11px;
-    color: #ccc;
+    color:steelblue;
     font-family: helvetica, Georgia, serif;
     text-transform: uppercase;
     margin-bottom: 25px;
+
+@media screen and (max-width: 620px) {
+  .page-wrapper {
+      width: 100%;
+      padding: 0 25px;
+  }
+
+  .nadja {
+      font-size: 62px;
+  }
+
+  .intro {
+      margin: 50px 0;
+  }
+
+  ul {
+    /*list-style:none;*/
+      padding: 0 25px;
+  }
+
+  .in-touch {
+    margin-bottom: 50px;
+  }
+
+  .in-touch span { 
+    display: block;
+    padding-bottom: 10px;
+  }
+
+  .page-wrapper .intro p {
+    font-size: 24px;
+  }
+
+  .page-wrapper p, 
+  .page-wrapper li {
+    font-size: 18px;
+  }
+  .page-wrapper li {
+    margin-bottom: 18px;
+  }
+
+
+}
+
+.footer {
+  color:steelblue;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: left;
