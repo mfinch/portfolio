@@ -23,8 +23,10 @@ h1 {font-family: helvetica;
           margin: 10px 735px 0px 5px;
           text-orientation:
           color: black;
+          line-height:90%;
         }
-hr {text-align:left;width:500px;}        
+hr {text-align:left;width:500px;
+    margin:5px;}        
 
 p {font-family: helvetica-light; 
   font-size: 14px;}
@@ -32,17 +34,29 @@ p {font-family: helvetica-light;
 li  {font-family: helvetica-light; 
 	   font-size: 15px;}
 
+.newsicon{width:20px;height:18px;}
+
+.educationicon{width:20px;height:18px;}
+
+.skillsicon{width:18px;height:18px;}
+
 .background {font-weight:bold;
               font-size:14px;}
 
 .training {font-weight: bold; 
-          font-size: 15px;}
+          font-size: 14px;
+          margin-bottom: 2px}
 
+.knowledge{font-weight:bold;
+            font-size:14px;
+            margin-bottom: 2px;
+}
 .skills {font-weight: bold;
         font-size: 14px;}
 
 .stories {font-weight: bold;
-          font-size: 14px;}
+          font-size: 14px;
+          margin-bottom:2px}
 
 .header {font-weight: bold;}
 
