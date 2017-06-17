@@ -1,35 +1,42 @@
- 
+.page-container {text-align: left;
+
+} 
+
 h1 {font-family: helvetica;
 	 font-size: 51px; 
 	 margin: 0px 10px -5px 0px;}
 
-.top-header{font-family: helvetica-light; 
-			font-size: 15px; 
-			font-weight: none;}
+.top-header{font-family:"helvetica-light"; 
+			     font-size: 14px; 
+			     font-weight: none;
+           float:right;
+           padding: 0px 0px 0px 0px; 
+            }
 
 .container {
-            max-width:700px;
+            max-width:440px;
             width:100%;
-
 			       }
-. section-header
 
 .bio {font-family: helvetica-light; 
           font-size: 16px;
           margin: 10px 735px 0px 5px;
           text-orientation:
           color: black;
-        }			
+        }
+hr {text-align:left;width:500px;}        
 
 p {font-family: helvetica-light; 
-  font-size: 15px;}
+  font-size: 14px;}
 
 li  {font-family: helvetica-light; 
 	   font-size: 15px;}
 
-.background {font-weight:bold;}
+.background {font-weight:bold;
+              font-size:14px;}
 
-.training {font-weight: bold; font-size: 15px;}
+.training {font-weight: bold; 
+          font-size: 15px;}
 
 .skills {font-weight: bold;
         font-size: 14px;}
@@ -39,9 +46,11 @@ li  {font-family: helvetica-light;
 
 .header {font-weight: bold;}
 
-.maps {float: left; padding:right; margin: 10px 10px 10px 10px}
+.maps {float: left; 
+        padding:right; 
+        margin: 10px 10px 10px 10px}
 
- /* unvisited link */ a:link { color: black; } /* visited link */ a:visited { color: gray; }
+ /* unvisited link */ a:link { color: black; } /* visited link */ a:visited { color: darkgray; }
  /* mouse over link */
 
 a:hover {color: steelblue;}/* selected link */a:active {color: darkgray;}
@@ -87,7 +96,7 @@ a.icons {
     font-size: 11px;
     color:steelblue;
     font-family: helvetica, Georgia, serif;
-    text-transform: uppercase;
+    text-transform: capitalize;
     margin-bottom: 25px;
 
 @media screen and (max-width: 620px) {
@@ -108,20 +117,16 @@ a.icons {
     /*list-style:none;*/
       padding: 0 25px;
   }
-
   .in-touch {
     margin-bottom: 50px;
   }
-
   .in-touch span { 
     display: block;
     padding-bottom: 10px;
   }
-
   .page-wrapper .intro p {
     font-size: 24px;
   }
-
   .page-wrapper p, 
   .page-wrapper li {
     font-size: 18px;
@@ -130,9 +135,7 @@ a.icons {
     margin-bottom: 18px;
   }
 
-
 }
-
 .footer {
   color:steelblue;
   position: absolute;
