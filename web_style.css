@@ -6,7 +6,7 @@ h1 {font-family: helvetica;
 	 font-size: 51px; 
 	 margin: 0px 10px -5px 0px;}
 
-.top-header{font-family:"helvetica-light"; 
+.top-header{font-family:"Raleway"; 
 			     font-size: 14px; 
 			     font-weight: none;
            float:right;
@@ -17,14 +17,15 @@ h1 {font-family: helvetica;
             max-width:440px;
             width:100%;
 			       }
+.bio {font-family:'Raleway', sans-serif; line-height: 125%;font-size: 16px}             
 
 hr {text-align:left;width:500px;
     margin:5px;}        
 
-p {font-family: helvetica-light; 
+p {font-family: "Raleway"; 
   font-size: 14px;}
 
-li  {font-family: helvetica-light; 
+li  {font-family: "Raleway"; 
 	   font-size: 15px;}
 
 .newsicon{width:20px;height:18px;padding-left: 5px}
@@ -36,18 +37,18 @@ li  {font-family: helvetica-light;
 .background {font-weight:bold;
               font-size:14px;}
 
-.training {font-weight: bold; 
+.training {font-family: helvetica;font-weight: bold; 
           font-size: 14px;
           margin-bottom: 2px}
 
-.knowledge{font-weight:bold;
+.knowledge{font-family: helvetica;font-weight:bold;
             font-size:14px;
             margin-bottom: 2px;
 }
 .skills {font-weight: bold;
         font-size: 14px; padding-left: 10px;}
 
-.stories {font-weight: bold;
+.stories {font-family:helvetica;font-weight: bold;
           font-size: 14px;
           margin-bottom:2px}
 
