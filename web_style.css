@@ -1,4 +1,4 @@
-.page-container {text-align: left;
+.page-container {text-align: ;
 
 } 
 
@@ -27,11 +27,11 @@ p {font-family: helvetica-light;
 li  {font-family: helvetica-light; 
 	   font-size: 15px;}
 
-.newsicon{width:20px;height:18px;}
+.newsicon{width:20px;height:18px;padding-left: 5px}
 
-.educationicon{width:20px;height:18px;}
+.educationicon{width:20px;height:14px; padding-left: 5px;}
 
-.skillsicon{width:18px;height:18px;}
+.skillsicon{width:18px;height:18px;padding-left: 4px}
 
 .background {font-weight:bold;
               font-size:14px;}
@@ -45,7 +45,7 @@ li  {font-family: helvetica-light;
             margin-bottom: 2px;
 }
 .skills {font-weight: bold;
-        font-size: 14px;}
+        font-size: 14px; padding-left: 10px;}
 
 .stories {font-weight: bold;
           font-size: 14px;
@@ -57,10 +57,10 @@ li  {font-family: helvetica-light;
         padding:right; 
         margin: 10px 10px 10px 10px}
 
- /* unvisited link */ a:link { color: black; } /* visited link */ a:visited { color: darkgray; }
+ /* unvisited link */ a:link { color: black; } /* visited link */ a:visited { color: steelblue; }
  /* mouse over link */
 
-a:hover {color: steelblue;}/* selected link */a:active {color: darkgray;}
+a:hover {color: steelblue;}/* selected link */a:active {color: steelblue;}
 
 /*LENA'S CODE STARTS HERE*/
 a.icons {
