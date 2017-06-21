@@ -1,6 +1,6 @@
-.page-container {text-align: ;
+.page-container {
 
-} 
+}
 
 h1 {font-family: helvetica;
 	 font-size: 51px; 
@@ -17,9 +17,14 @@ h1 {font-family: helvetica;
             max-width:440px;
             width:100%;
 			       }
-.bio {font-family:'Raleway', sans-serif; line-height: 125%;font-size: 16px}             
+ .mug {width:150px;}
+             
+.bio {font-family:'Raleway', sans-serif; 
+      line-height: 125%;
+      font-size: 16px}
 
-hr {text-align:left;width:500px;
+hr {text-align:left;
+    width:500px;
     margin:5px;}        
 
 p {font-family: "Raleway"; 
@@ -28,27 +33,37 @@ p {font-family: "Raleway";
 li  {font-family: "Raleway"; 
 	   font-size: 15px;}
 
-.newsicon{width:20px;height:18px;padding-left: 5px}
+.newsicon{width:20px;
+          height:18px;
+          padding-left: 5px}
 
-.educationicon{width:20px;height:14px; padding-left: 5px;}
+.educationicon{width:20px;
+              height:14px;
+              padding-left: 5px;}
 
-.skillsicon{width:18px;height:18px;padding-left: 4px}
+.skillsicon{width:18px;
+            height:18px;
+            padding-left: 4px}
 
 .background {font-weight:bold;
               font-size:14px;}
 
-.training {font-family: helvetica;font-weight: bold; 
+.training {font-family: helvetica;
+          font-weight: bold; 
           font-size: 14px;
           margin-bottom: 2px}
 
-.knowledge{font-family: helvetica;font-weight:bold;
-            font-size:14px;
-            margin-bottom: 2px;
+.knowledge{font-family: helvetica;
+          font-weight:bold;
+          font-size:14px;
+          margin-bottom: 2px;
 }
 .skills {font-weight: bold;
-        font-size: 14px; padding-left: 10px;}
+        font-size: 14px;
+        padding-left: 10px;}
 
-.stories {font-family:helvetica;font-weight: bold;
+.stories {font-family:helvetica;
+          font-weight: bold;
           font-size: 14px;
           margin-bottom:2px}
 
@@ -58,7 +73,7 @@ li  {font-family: "Raleway";
         padding:right; 
         margin: 10px 10px 10px 10px}
 
- /* unvisited link */ a:link { color: black; } /* visited link */ a:visited { color: steelblue; }
+ /* unvisited link */ a:link { color: black; } /* visited link */ a:visited {color: steelblue;}
  /* mouse over link */
 
 a:hover {color: steelblue;}/* selected link */a:active {color: steelblue;}
@@ -99,15 +114,22 @@ a.icons {
     fill:steelblue;
   }	/*LENA'S CODE ENDS HERE*/
 
-/*NADJA'S CODE*/
   .last-updated {
     font-size: 11px;
     color:steelblue;
     font-family: helvetica, Georgia, serif;
     text-transform: capitalize;
-    margin-bottom: 25px;
+    margin-bottom: 25px;}
 
-@media screen and (max-width: 620px) {
+.bottom-icons {
+  font-size:9px;
+  color:darkgray;
+  font-family: helvetica;
+
+}
+
+
+/*@media screen and (max-width: 620px) {
   .page-wrapper {
       width: 100%;
       padding: 0 25px;
@@ -123,7 +145,7 @@ a.icons {
 
   ul {
     /*list-style:none;*/
-      padding: 0 25px;
+   /*   padding: 0 25px;
   }
   .in-touch {
     margin-bottom: 50px;
@@ -141,9 +163,8 @@ a.icons {
   }
   .page-wrapper li {
     margin-bottom: 18px;
-  }
-
-}
+  }*/
+/*
 .footer {
   color:steelblue;
   position: absolute;
@@ -151,4 +172,8 @@ a.icons {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  text-align: left;
+  text-align: left;}*/
+
+  @media only screen and (max-width: 500px){ 
+    .mug {width:300px;}
+  }
