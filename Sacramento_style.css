@@ -1,0 +1,13 @@
+.content-wrapper 
+{margin:auto;
+width:50%;
+}
+
+h1 {
+	font-family: 'Patua One', cursive;
+	text-align: center;
+}
+
+p {font-family: helvetica;
+	text-align: justify;
+}
